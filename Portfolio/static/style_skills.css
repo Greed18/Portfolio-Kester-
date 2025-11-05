@@ -1,0 +1,10 @@
+.skills{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
