@@ -1,2 +1,0 @@
-# Portfolio-Kester-
-No python
