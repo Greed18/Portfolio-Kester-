@@ -1,0 +1,28 @@
+.about{
+        background: linear-gradient(135deg, #011830, #62758a);
+    padding: 50px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    color: white;
+    border-radius: 30px;
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container_about{
+    max-width: 800px;
+    background: rgba(1, 24, 48, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+    border-radius: 30px;
+    border: solid 1px #62758a;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}

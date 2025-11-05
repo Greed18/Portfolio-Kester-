@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Kester Kevin P Tolentino{% endblock %}</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="static/style_home.css">
+    <link rel="stylesheet" href="static/style_about.css">
+    <link rel="stylesheet" href="static/style_project.css">
+    <link rel="stylesheet" href="static/style_contact.css">
+    <link rel="stylesheet" href="static/style_education.css">
+    <link rel="stylesheet" href="static/style_skills.css">
+    <!-- temporary SVG favicon (created) -->
+    <link rel="icon" type="image/svg+xml" href="static/favicon.svg">
+
+    <!-- Bootstrap & Fonts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+            <a class="navbar-brand" href="#hero">KESTER+</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+   <!-- <video autoplay muted loop id="myVideo">
+    <source src="static/bgvid.mp4" type="video/mp4">
+
+    </video> -->
+
+    <section id="hero" class="hero">
+        <div class="container text-center">
+            <h1>Welcome</h1>
+            <p>Hi! I’m Kester Kevin P. Tolentino, a Computer Engineering graduate 
+                with a passion for building software, exploring new technologies, 
+                and solving problems through creative and efficient solutions.</p>
+            <p>Explore my projects and learn more about my work.</p>
+            <a href="#projects" class="btn btn-primary" id="viewbut">View Projects</a>
+        </div>
+
+        <div class="container text-center">
+            <div class="profile-pic-container">
+             <img src="static/portfolio-removebg-preview (1).png" 
+                     alt="Profile Picture" class="profile-pic">
+            </div>  
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container_about">
+            <h1>About Me</h1>
+            <p>I am Kester Kevin P. Tolentino, a Computer Engineering graduate with expertise in programming, systems development,
+               web development, and cybersecurity—enhanced by the Google Cybersecurity Professional Certificate—driven by a passion 
+               for creating secure, efficient, and scalable technology solutions while continuously learning and adapting.</p>
+        </div>
+    </section>
+
+    <!-- Education & Skills -->
+    <section id="education" class="education">
+        <div class="container_education">
+            <h1>Education</h1>
+            <ul>
+                <li><b>Elementary:</b> Virac Elementary School</li>
+                <li><b>High School:</b> Catanduanes High School</li>
+                <li><b>Senior High School:</b> Catanduanes National High School</li>
+                <li><b>College:</b> Catanduanes State University</li>
+                <p style="margin-left:20px;">Degree: Bachelor of Science in Computer Engineering</p>
+            </ul>
+        </div>
+
+        <div class="container_skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>Programming Languages: Python, C, C++, C#, SQLite</li>
+                <li>Web Development: HTML, CSS, Flask</li>
+                <li>Machine Learning: Ultralytics,PyTorch, OpenCV</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <div class="container_project">
+            <h1>Projects</h1>
+            <p>Here are some of the projects I've worked on:</p>
+            <ul class="project-list">
+                <li>
+                        <h4>Adaptive Traffic Light Using Machine Learning and Computer Vision</h4>
+                        <p>Using Computer Vision to assess traffic congestion and optimize signal timing.</p>
+                    <img src="static/Trafficlight-removebg-preview.png" 
+                             alt="Adaptive Traffic Light" class="project-img">
+                </li>
+                <li>
+                    <h4>Garage Parking Indicator</h4>
+                    <p>Smart parking system using IoT and computer vision to detect available spots.</p>
+                <img src="static/Arduino_Uno_-_R3-removebg-preview.png" 
+                         alt="Garage Parking Indicator" class="project-img">
+                </li>
+                <li>
+                    <h4>Pendulum</h4>
+                    <p>A GUI note-taking app allowing users to create, edit, and delete notes easily.</p>
+                <img src="static/tkinter-removebg-preview.png" 
+                         alt="Pendulum" class="project-img">
+                </li>
+                <li>
+                    <h4>Portfolio Website</h4>
+                    <p>A personal portfolio website to showcase my projects, skills, and contact information.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <section id="contact" class="contact">
+    <div class="container_contact">
+        <h1>Contact Me</h1>
+
+        <div class="contact_links">
+            <a href="mailto:kesterkevintolentino37@example.com" class="contact_item">
+                <img src="static/email.png" alt="Email Icon" class="icon">
+                <span>kesterkevintolentino37@example.com</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/kester-kevin-tolentino-44b219372/" target="_blank" class="contact_item">
+                <img src="static/linkedin.png" alt="LinkedIn Icon" class="icon">
+                <span>LinkedIn Profile</span>
+            </a>
+
+            <a href="https://github.com/Greed18" target="_blank" class="contact_item">
+                <img src="static/github.png" alt="GitHub Icon" class="icon">
+                <span>github.com/Greed18</span>
+            </a>
+        </div>
+
+        <p class="footer">&copy; 2023 Kester Kevin P Tolentino</p>
+    </div>
+</section>
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="static/style.js"></script>
+</body>
+</html>
